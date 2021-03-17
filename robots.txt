@@ -1,0 +1,73 @@
+﻿Sitemap: http://maitremo.fr/sitemap.xml
+
+# All Bots
+User-agent: *
+Allow: /sitemap.xml
+Allow: /google_sitemap.xml.gz
+Allow: /sitemap.xml.gz$
+Allow: /sitemap.xml.gz
+Disallow: /readme.html
+Disallow: /license.txt
+Disallow: /search/
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.inc$
+Disallow: /*.css$
+Disallow: /*.gz$
+Disallow: /*.wmv$
+Disallow: /*.swf$
+Disallow: /*.cgi$
+Disallow: /cgi-bin
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/cache/
+Disallow: /wp-content/themes/
+Disallow: /cc/
+Disallow: /tag/
+Disallow: /wp-rss.php
+Disallow: /wp-rss2.php
+Disallow: /*?
+Disallow: /*comment-page
+
+User-agent: Xenu
+Disallow: /
+User-agent: SiteSucker
+Disallow: /
+# Google AdSense
+User-agent: Mediapartners-Google
+Disallow: / 
+
+# Google Image
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: psbot
+Disallow: /
+
+User-agent: Fasterfox
+Disallow: /
+
+User-agent: ia_archiver-web.archive.org
+Disallow: /
+ 
+# Internet Archiver Wayback Machine
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: ia_archiver-web.archive.org
+Disallow: /
+
+# Bing Picture Search
+User-agent: psbot
+Disallow: /
+
+# Dugg Mirror
+User-agent: duggmirror
+Disallow: /
+
+
